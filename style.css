@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*
+{
+    margin: 0;
+    padding:0;
+    font-family:'Poppins';
+}
+.parent
+{
+    display: grid;
+    grid-template-columns: 20% 60%;
+}
+
+.left {
+    /* background-color: #938a8af3; */
+    background-color: #b1babd;
+
+
+    color: #333333;
+    padding: 20px;
+    position: relative;
+}
+
+.right {
+    background-color: #e4e1e1;
+    color: #1a1a1a;
+    padding: 20px;
+    position: relative;
+}
+.image
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* prevents this div's content from going beyond the limit */
+    overflow: hidden;        
+    position: relative;
+    
+}
+.image img
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    object-fit: cover;
+}
+
+
+.left hr
+{
+    width: 500px;
+    border-color: black;
+}
+
+.left h3{
+    font-size: 16px;
+}
+
+
+
+
+
+.contactinfo
+{
+    margin-top: 10px;
+}
+.contactdetails span
+{
+    font-weight: bold;
+    font-size:13px;
+}
+.contactdetails p
+{
+    font-size:11px;
+}
+.custom-link {
+    color: #333333;
+    text-decoration: none; 
+}
+
+.educationinfo {
+
+    margin-top: 10px;
+
+}
+.year
+{
+    font-size: 11px;
+}
+.degree
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+.uni{
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+.expertise
+{
+    margin-top: 10px;
+
+}
+.expertise li
+{
+    font-size: 13px;
+    margin-left: 15px;
+
+}
+
+
+.right hr
+{
+    border-color: black;
+}
+
+.nameheading h3{
+    font-weight:lighter;
+    font-style:italic;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.projects{
+    margin-top: 20px;
+
+}
+.projects h2{
+    font-size: 20px;
+
+}
+.projectname
+{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.projecttype
+{
+    font-size: 13px;
+}
+.projecttime
+{
+    font-size: 13px;
+}
+.skills
+{
+font-size: 15px;
+font-weight: bold;
+}
+.skillnames
+{
+    font-size: 13px;;
+}
+
+
